@@ -1,0 +1,951 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-part {
+    background-color: black;
+}
+
+.nav-part ul li a:hover {
+    color: aqua !important;
+    border-bottom: 3px solid aliceblue !important;
+}
+
+.content {
+    background-image: url("man.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.content .Header {
+    padding-top: 200px;
+    padding-left: 75px;
+    padding-bottom: 250px;
+    color: white;
+}
+
+.content .Header p {
+    font-size: 20px;
+}
+
+.second {
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.second .row .left {
+    margin-top: 40px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.second .row .right {
+    box-sizing: border-box;
+}
+
+.second .row button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.second p {
+    font-size: 20px;
+}
+
+.second .new {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    font-size: 25px;
+}
+
+.section3 {
+    background-image: url('man EB check.jpg');
+    width: 100%;
+    padding-bottom: 90px;
+    background-size: cover;
+    opacity: 0.7;
+    padding-top: 90px;
+    padding-left: 75px;
+    color: #ffffff;
+}
+
+.section4 {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.section4 p {
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.section4 h2 {
+    padding-left: 115px;
+    font-size: 54px;
+}
+
+.section4 .row .change {
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.section5 {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.section5 .nate {
+    background-image: url('worker.jpeg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 230px;
+    padding-left: 50px;
+    color: beige;
+}
+
+.section5 .clients {
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+
+.section5 .clients p {
+    font-size: 20px;
+}
+
+.section5 .clients button {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.section6 {
+    margin-top: 50px;
+}
+
+.section6 .row {
+    margin-left: 65px;
+}
+
+.section6 .row .planning img {
+    width: 100%;
+    background-size: cover;
+}
+
+.section6 .row .contents {
+    padding-top: 80px;
+}
+
+.section6 .row .contents h2 {
+    font-size: 30px;
+}
+
+.section6 .row .contents h1 {
+    font-size: 38px;
+}
+
+.section6 .row .contents p {
+    font-size: 20px;
+}
+
+.section6 .row .contents button {
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.section7 {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.section7 .row .one {
+    background-color: orange;
+    padding: 25px;
+}
+
+.section7 .row .one:hover,
+.section7 .row .two:hover,
+.section7 .row .three:hover {
+    cursor: pointer;
+}
+
+.section7 .row .two {
+    background-color: lightsalmon;
+    padding: 25px;
+}
+
+.section7 .row .three {
+    background-color: orangered;
+    padding: 25px;
+}
+
+.Last {
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.Last h2 {
+    display: inline-block;
+}
+
+.Last a {
+    padding-left: 90px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Extra large devices (large desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .content .Header {
+        padding-top: 200px;
+        padding-left: 60px;
+        padding-bottom: 220px;
+    }
+
+    .second {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .section4 {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 54px;
+    }
+
+    .section5 .nate {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-left: 40px;
+    }
+
+    .section5 .clients {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Large devices (desktops, less than 992px) */
+@media (max-width: 991.98px) {
+    .content .Header {
+        padding-top: 180px;
+        padding-left: 50px;
+        padding-bottom: 200px;
+    }
+
+    .second {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .section4 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 52px;
+    }
+
+    .section5 .nate {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        padding-left: 30px;
+    }
+
+    .section5 .clients {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Medium devices (tablets, less than 768px) */
+@media (max-width: 767.98px) {
+    .content .Header {
+        padding-top: 150px;
+        padding-left: 40px;
+        padding-bottom: 150px;
+    }
+
+    .second {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .section4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 48px;
+    }
+
+    .section5 .nate {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        padding-left: 10px;
+    }
+
+    .section5 .clients {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+}
+
+/* Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .content .Header {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+    }
+
+    .second {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .second .row .build {
+        margin-top: 10px;
+    }
+
+    .section4 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 36px;
+    }
+    .section5 .row {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .section5 .nate {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-left: 0px;
+    }
+
+    .section5 .clients {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .section6 .row {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .section7 .row {
+        margin-top: 20px;
+    }
+}
+
+/* Special media queries for specific devices */
+@media (max-width: 1500px) {
+    body, nav, .content, .second, .section3, .section4, .section5, .section6, .section7, footer {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 900px) {
+    .Last h2 {
+        font-size: 18px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .Last a {
+        padding-left: 0;
+        font-size: 18px;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Last h2 {
+        font-size: 16px;
+    }
+
+    .Last a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Last h2 {
+        font-size: 14px;
+    }
+
+    .Last a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Last h2 {
+        font-size: 12px;
+    }
+
+    .Last a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Last h2 {
+        font-size: 10px;
+    }
+
+    .Last a {
+        font-size: 10px;
+    }
+}
+
+
+
+
+/* body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-part{
+    background-color: black;
+    
+}
+.nav-part ul li a:hover{
+    color: aqua !important;
+    border-bottom: 3px solid aliceblue !important;
+
+}
+
+.content {
+    background-image: url("man.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.content .Header {
+    padding-top: 200px;
+    padding-left: 75px;
+    padding-bottom:250px;
+    color: white;
+}
+.content .Header P {
+    font-size: 20px;
+}
+
+.second {
+    margin-top: 40px;
+}
+.second .row .left {
+    margin-top:40;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.second .row .right {
+    box-sizing: border-box;
+}
+.second .row button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: yellow;
+}
+.second p{
+    font-size: 20px;
+}
+.second {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.second .new {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    font-size: 25px;
+}
+
+.section3 {
+    background-image: url('man EB check.jpg') ;
+    width: 100%;
+    padding-bottom: 90px;
+    background-size: cover;
+    opacity: 0.7;
+    padding-top: 90px;
+    padding-left: 75px;
+    color:#ffffff;
+    
+}
+
+.section4 {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.section4 p{
+    font-size: 25px;
+    display:inline;
+    margin-left: 10px;
+}
+.section4 h2 {
+  padding-left: 115px;
+  font-size: 54px;
+}
+.section4 .row .change {
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.section5 {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.section5 .nate {
+    background-image: url('worker.jpeg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 230px;
+    padding-left: 50px;
+    color: beige;
+    
+}
+.section5 .clients {
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+.section5 .clients p{
+    font-size: 20px;
+}
+.section5 .clients button{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.section6{
+    margin-top: 50px;
+}
+.section6 .row {
+    margin-left: 65px;
+}
+ .section6 .row .planning img {
+    width : 100% ;
+    background-size: cover;
+    
+}  
+
+.section6 .row .contents {
+    padding-top: 80px;
+}
+.section6 .row .contents h2{
+    font-size: 30px;
+}
+.section6 .row .contents h1{
+    font-size: 38px;
+}
+.section6 .row .contents p{
+    font-size: 20px;
+}
+.section6 .row .contents button{
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.section7 {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.section7 .row .one {
+    background-color: orange;
+    padding: 25px;
+}
+.section7 .row .one:hover,
+.section7 .row .two:hover,
+.section7 .row .three:hover {
+    cursor: pointer;
+}
+.section7 .row .two {
+    background-color: lightsalmon;
+    padding: 25px;
+}
+.section7 .row .three {
+    background-color: orangered;
+    padding: 25px;
+}
+.Last {
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.Last h2{
+   display: inline-block;
+   
+}
+.Last a {
+  padding-left: 90px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ */
+
+
+
+
+
+/* Extra large devices (large desktops, less than 1200px) */
+ /* @media (max-width: 1199.98px) {
+    .content .Header {
+        padding-top: 200px;
+        padding-left: 60px;
+        padding-bottom: 220px;
+    }
+
+    .second {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .section4 {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 54px;
+    }
+
+    .section5 .nate {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-left: 40px;
+    }
+
+    .section5 .clients {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}  */
+
+/* Large devices (desktops, less than 992px) */
+/* @media (max-width: 991.98px) {
+    .content .Header {
+        padding-top: 180px;
+        padding-left: 50px;
+        padding-bottom: 200px;
+    }
+
+    .second {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .section4 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 52px;
+    }
+
+    .section5 .nate {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        padding-left: 30px;
+    }
+
+    .section5 .clients {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}  */
+
+/* Medium devices (tablets, less than 768px) */
+/* @media (max-width: 767.98px) {
+    .content .Header {
+        padding-top: 150px;
+        padding-left: 40px;
+        padding-bottom: 150px;
+    }
+
+    .second {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section3 .clear {
+        padding-top: 20px;
+    }
+
+    .section4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 48px;
+    }
+
+    .section5 .nate {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        padding-left: 20px;
+    }
+
+    .section5 .clients {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .content .Header {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+    }
+
+    .second {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section4 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section4 h2 {
+        padding-left: 0;
+        font-size: 36px;
+    }
+
+    .section5 .nate {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+
+    .section5 .clients {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+} 
+@media (max-width: 1500px){
+    
+    body{
+       overflow-x: hidden; 
+    }
+        nav{
+        overflow-x:hidden;
+    }
+    .content{
+        overflow-x:hidden;
+    }
+    .second{
+        overflow-x:hidden;
+    }
+    .section3  {
+        overflow: hidden;
+    }
+    .section3 .image{
+        overflow:hidden;
+    }
+    .section3 .row{
+        overflow: hidden;
+    }
+  
+    .section4{
+        overflow-x:hidden;
+    }
+    .section5{
+overflow-x: hidden;
+    }
+    .section6{
+        overflow-x: hidden;
+    }
+    .section7{
+        overflow-x: hidden;
+    }
+    footer{
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 900px) {
+    .Last h2 {
+      font-size: 18px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .Last a {
+      padding-left: 0;
+      font-size: 18px;
+      display: block;
+      margin-top: 5px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Last h2 {
+      font-size: 16px;
+    }
+    .Last a {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .Last h2 {
+      font-size: 14px;
+    }
+    .Last a {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Last h2 {
+      font-size: 12px;
+    }
+    .Last a {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .Last h2 {
+      font-size: 10px;
+    }
+    .Last a {
+      font-size: 10px;
+    }
+  } */
+
+/* new */
+
+ /* @media (max-width: 1920px) { 
+    .section6 .row .contents h1 {
+      font-size: 35px;
+    }
+  } 
+
+  @media (max-width: 1536px) { 
+    .section6 .row .contents h1 {
+      font-size: 35px;
+    }
+  } 
+
+  @media (max-width: 1280px) { 
+    .section6 .row .contents h1 {
+      font-size: 30px;
+    }
+  } 
+
+  @media (max-width: 1024px) { 
+    .section6 .row .contents h1 {
+      font-size: 28px;
+    }
+    .section7 {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+
+  @media (max-width: 834px) { 
+    .section6 .row .contents h1 {
+      font-size: 26px;
+    }
+    .section7 {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+
+  @media (max-width: 820px) { 
+    .section6 .row .contents h1 {
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 768px) { 
+    .section6 .row .contents h1 {
+      font-size: 22px;
+    }
+    .section7 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 667px) { 
+    .section6 .row .contents h1 {
+      font-size: 20px;
+    }
+    .section7 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 640px) { 
+    .section6 .row .contents h1 {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 600px) { 
+    .section6 .row .contents h1 {
+      font-size: 16px;
+    }
+    .section6 .row .contents p {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 480px) { 
+    .section6 .row .contents h1 {
+      font-size: 14px;
+    }
+    .section6 .row .contents p {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 375px) { 
+    .section6 .row .contents h1 {
+      font-size: 12px;
+    }
+    .section6 .row .contents p {
+      font-size: 12
+    }
+} */
